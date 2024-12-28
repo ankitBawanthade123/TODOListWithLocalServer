@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		BC1779822CDC7DAD005AB012 /* MYFirstIOSAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1779812CDC7DAD005AB012 /* MYFirstIOSAppApp.swift */; };
-		BC1779842CDC7DAD005AB012 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1779832CDC7DAD005AB012 /* ContentView.swift */; };
 		BC1779862CDC7DAE005AB012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC1779852CDC7DAE005AB012 /* Assets.xcassets */; };
 		BC1779892CDC7DAE005AB012 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC1779882CDC7DAE005AB012 /* Preview Assets.xcassets */; };
 		BC1779932CDC7DAE005AB012 /* MYFirstIOSAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1779922CDC7DAE005AB012 /* MYFirstIOSAppTests.swift */; };
 		BC17799D2CDC7DAE005AB012 /* MYFirstIOSAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC17799C2CDC7DAE005AB012 /* MYFirstIOSAppUITests.swift */; };
 		BC17799F2CDC7DAE005AB012 /* MYFirstIOSAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC17799E2CDC7DAE005AB012 /* MYFirstIOSAppUITestsLaunchTests.swift */; };
+		BC2078E72CEBF028006050CF /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2078E62CEBF028006050CF /* ListViewModel.swift */; };
+		BCA3C8AC2CE70F6E004BC7CF /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA3C8AB2CE70F6E004BC7CF /* ListView.swift */; };
+		BCA3C8AE2CE7113A004BC7CF /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA3C8AD2CE7113A004BC7CF /* ListRowView.swift */; };
+		BCA3C8B02CE7147B004BC7CF /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA3C8AF2CE7147B004BC7CF /* AddView.swift */; };
+		BCA3C8B32CE71E2F004BC7CF /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA3C8B22CE71E2F004BC7CF /* ItemModel.swift */; };
+		BCF432422CEDA2F80061B7AE /* NoItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF432412CEDA2F80061B7AE /* NoItemsView.swift */; };
+		BCF432442CEDA89C0061B7AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF432432CEDA89C0061B7AE /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,6 @@
 /* Begin PBXFileReference section */
 		BC17797E2CDC7DAD005AB012 /* MYFirstIOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MYFirstIOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC1779812CDC7DAD005AB012 /* MYFirstIOSAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYFirstIOSAppApp.swift; sourceTree = "<group>"; };
-		BC1779832CDC7DAD005AB012 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BC1779852CDC7DAE005AB012 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC1779882CDC7DAE005AB012 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BC17798E2CDC7DAE005AB012 /* MYFirstIOSAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MYFirstIOSAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +49,13 @@
 		BC1779982CDC7DAE005AB012 /* MYFirstIOSAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MYFirstIOSAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC17799C2CDC7DAE005AB012 /* MYFirstIOSAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYFirstIOSAppUITests.swift; sourceTree = "<group>"; };
 		BC17799E2CDC7DAE005AB012 /* MYFirstIOSAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYFirstIOSAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BC2078E62CEBF028006050CF /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		BCA3C8AB2CE70F6E004BC7CF /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		BCA3C8AD2CE7113A004BC7CF /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
+		BCA3C8AF2CE7147B004BC7CF /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		BCA3C8B22CE71E2F004BC7CF /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		BCF432412CEDA2F80061B7AE /* NoItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemsView.swift; sourceTree = "<group>"; };
+		BCF432432CEDA89C0061B7AE /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +107,9 @@
 			isa = PBXGroup;
 			children = (
 				BC1779812CDC7DAD005AB012 /* MYFirstIOSAppApp.swift */,
-				BC1779832CDC7DAD005AB012 /* ContentView.swift */,
+				BC2078E52CEBF007006050CF /* ViewModel */,
+				BCA3C8B12CE71DF5004BC7CF /* Models */,
+				BCA3C8AA2CE70F5E004BC7CF /* Views */,
 				BC1779852CDC7DAE005AB012 /* Assets.xcassets */,
 				BC1779872CDC7DAE005AB012 /* Preview Content */,
 			);
@@ -125,6 +139,34 @@
 				BC17799E2CDC7DAE005AB012 /* MYFirstIOSAppUITestsLaunchTests.swift */,
 			);
 			path = MYFirstIOSAppUITests;
+			sourceTree = "<group>";
+		};
+		BC2078E52CEBF007006050CF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BC2078E62CEBF028006050CF /* ListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BCA3C8AA2CE70F5E004BC7CF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BCA3C8AB2CE70F6E004BC7CF /* ListView.swift */,
+				BCA3C8AD2CE7113A004BC7CF /* ListRowView.swift */,
+				BCA3C8AF2CE7147B004BC7CF /* AddView.swift */,
+				BCF432412CEDA2F80061B7AE /* NoItemsView.swift */,
+				BCF432432CEDA89C0061B7AE /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BCA3C8B12CE71DF5004BC7CF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BCA3C8B22CE71E2F004BC7CF /* ItemModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +273,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCF432442CEDA89C0061B7AE /* LaunchScreen.storyboard in Resources */,
 				BC1779892CDC7DAE005AB012 /* Preview Assets.xcassets in Resources */,
 				BC1779862CDC7DAE005AB012 /* Assets.xcassets in Resources */,
 			);
@@ -257,8 +300,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC1779842CDC7DAD005AB012 /* ContentView.swift in Sources */,
+				BCA3C8B32CE71E2F004BC7CF /* ItemModel.swift in Sources */,
+				BCA3C8AC2CE70F6E004BC7CF /* ListView.swift in Sources */,
+				BC2078E72CEBF028006050CF /* ListViewModel.swift in Sources */,
+				BCA3C8B02CE7147B004BC7CF /* AddView.swift in Sources */,
 				BC1779822CDC7DAD005AB012 /* MYFirstIOSAppApp.swift in Sources */,
+				BCF432422CEDA2F80061B7AE /* NoItemsView.swift in Sources */,
+				BCA3C8AE2CE7113A004BC7CF /* ListRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,13 +465,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MYFirstIOSApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 2S5C6DCZWC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ToDo;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -445,13 +495,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MYFirstIOSApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 2S5C6DCZWC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ToDo;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
